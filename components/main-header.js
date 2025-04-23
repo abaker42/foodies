@@ -5,6 +5,7 @@ import Image from 'next/image'
 import MainBackgound from './main-background';
 
 export default function MainHeader() {
+	//leaving a comment to ensure git wprking properly
   return (
 		<>
 			<MainBackgound />
