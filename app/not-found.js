@@ -6,7 +6,7 @@ export default function NotFound() {
     //universal page not found
     <main className='not-found'>
         <h1>Page Not Found</h1>
-        <p>I don't know that page</p>
+        <p>I do not know that page</p>
     </main>
   )
 }

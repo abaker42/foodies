@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <main className='not-found'>
         <h1>Meal Not Found</h1>
-        <p>I don't know that recipe</p>
+        <p>I do not know that recipe</p>
     </main>
   )
 }

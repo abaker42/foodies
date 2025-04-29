@@ -4,6 +4,12 @@ import styles from './page.module.css'
 import Slideshow from "@/components/slideshow/slideshow";
 
 export default function Home() {
+	/**
+	 * The continued vision for this foodies app 
+	 * 1. recreate app using tailwind and framer motion
+	 * 2. be able to upload images to cloud (amazon s3)
+	 * 3. add delete functionality
+	 */
   return (
 		<>
 			<header className={styles.header}>

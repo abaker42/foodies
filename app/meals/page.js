@@ -22,7 +22,7 @@ export default async function Meals() {
 					Delicious meals curated{" "}
 					<span className={styles.highlight}>BY YOU!</span>
 				</h1>
-				<p>Choose your favorite recipe and start cookin'</p>
+				<p>Choose your favorite recipe and start cookin`&apos`</p>
 
 				<p className={styles.cta}>
 					<Link href='meals/share'>Share Your Favorie Recipes</Link>
