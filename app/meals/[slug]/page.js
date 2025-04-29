@@ -7,6 +7,11 @@ import { notFound } from 'next/navigation';
 
 export default function MealDetail({params}) {
   const meal = getMeal(params.slug)
+
+  if(!meal) {
+	notFound();
+  }
+  
   //fix formatting instructions due to line breaks
   meal.instructions = meal.instructions.replace(/\n/g, '<br />')
   return (
